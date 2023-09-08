@@ -277,25 +277,7 @@ S3.goto(50,-300)
 S3.lt(90)
 S4.goto(-500,-50)
 
-'''activar las terminales del semaforo
-#salidas
-gpio.setmode(gpio.BOARD)
-gpio.setup(36,gpio.OUT) #verde semaforo 1
-gpio.setup(38,gpio.OUT) #amarillo semaforo 1
-gpio.setup(40,gpio.OUT) #rojo semaforo 1
 
-gpio.setup(29,gpio.OUT) #verde semaforo 2
-gpio.setup(31,gpio.OUT) #amarillo semaforo 2
-gpio.setup(33,gpio.OUT) #rojo semaforo 2
-
-gpio.setup(22,gpio.OUT) #verde del semaforo 3
-gpio.setup(24,gpio.OUT)#amarillo del semaforo 3
-gpio.setup(26,gpio.OUT) #rojo semaforo 3
-
-gpio.setup(11,gpio.OUT) #verde semaforo 4
-gpio.setup(13,gpio.OUT) #amarillo semaforo 4
-gpio.setup(15,gpio.OUT) #rojo semaforo 4 
-'''
 t.hideturtle()
 for i in range(2):
  t.penup()
@@ -307,23 +289,7 @@ for i in range(2):
  t.dot(20,255,0,0)
  t.goto(-115,-90)
  t.dot(20,255,0,0)
- '''
- gpio.output(36,gpio.HIGH)# verde del semaforo 1 durante 3s
- gpio.output(38,gpio.LOW)
- gpio.output(40,gpio.LOW)
- 
- gpio.output(29,gpio.LOW)
- gpio.output(31,gpio.LOW)
- gpio.output(33,gpio.HIGH) #ROJO DEL SEMAFORO 2 ENCENDIDO
- 
- gpio.output(22,gpio.LOW)
- gpio.output(24,gpio.LOW)
- gpio.output(26,gpio.HIGH) #rojo de semaforo 3 encendido
- 
- gpio.output(11,gpio.LOW)
- gpio.output(13,gpio.LOW)
- gpio.output(15,gpio.HIGH) #rojo semaforo 4 encendido
- '''
+
  for i in range(3):
   a=2
   S1.shapesize(a*1,a*3,a*3)
@@ -341,23 +307,7 @@ for i in range(2):
  t.dot(20,0,50,0)
  t.goto(-60,115)
  t.dot(20,255,255,0)
- '''
- gpio.output(36,gpio.LOW)
- gpio.output(38,gpio.HIGH) #ENCIENDE LED AMARILLO DE SEMAFORO 1
- gpio.output(40,gpio.LOW)
  
- gpio.output(29,gpio.LOW)
- gpio.output(31,gpio.LOW)
- gpio.output(33,gpio.HIGH)#ROJO SIGUE ENCENDIDO DE SEMAFORO 2
- 
- gpio.output(22,gpio.LOW)
- gpio.output(24,gpio.LOW)
- gpio.output(26,gpio.HIGH) #rojo del semaforo 3 encendido
- 
- gpio.output(11,gpio.LOW)
- gpio.output(13,gpio.LOW)
- gpio.output(15,gpio.HIGH) #rojo semaforo 4 encendido
- '''
  time.sleep(1)
  t.goto(-60,115)
  t.dot(20,50,50,0)
@@ -367,23 +317,7 @@ for i in range(2):
  t.dot(20,50,0,0)
  t.goto(115,30)
  t.dot(20,0,255,0) #enciende verde de semaforo 2
- '''
- gpio.output(36,gpio.LOW)
- gpio.output(38,gpio.LOW)
- gpio.output(40,gpio.HIGH) #ENCIENDE ROJO DE SEMAFORO 1 durante 3s
- 
- gpio.output(29,gpio.HIGH)  #ENCIENDE VERDE DE SEMAFORO 2
- gpio.output(31,gpio.LOW)
- gpio.output(33,gpio.LOW)
- 
- gpio.output(22,gpio.LOW)
- gpio.output(24,gpio.LOW)
- gpio.output(26,gpio.HIGH)#rojo de semaforo 3 encendido
- 
- gpio.output(11,gpio.LOW)
- gpio.output(13,gpio.LOW)
- gpio.output(15,gpio.HIGH) #rojo de semaforo 4 encendido
- '''
+
  for i in range(4):
   b=3
   S2.shapesize(b*1.33,b*1,b*2)
@@ -402,23 +336,7 @@ for i in range(2):
  t.goto(115,60)
  t.dot(20,255,255,0)#enciende amarillo de semaforo 2 #seguirle de aqui
  
- '''
- gpio.output(36,gpio.LOW)
- gpio.output(38,gpio.LOW)
- gpio.output(40,gpio.HIGH)#ROJO DE SEMAFORO 1 AUN PRENDIDO
- 
- gpio.output(29,gpio.LOW)
- gpio.output(31,gpio.HIGH) #AMARILLO DE SEMAFORO 2 PRENDIDO 
- gpio.output(33,gpio.LOW)
- 
- gpio.output(22,gpio.LOW)
- gpio.output(24,gpio.LOW)
- gpio.output(26,gpio.HIGH) #rojo de semaforo 3 encendido
- 
- gpio.output(11,gpio.LOW)
- gpio.output(13,gpio.LOW)
- gpio.output(15,gpio.HIGH) #rojo de semaforo 4 encendido
- '''
+
  time.sleep(1)
  
  t.goto(115,60)
@@ -429,23 +347,7 @@ for i in range(2):
  t.dot(20,50,0,0)#apago rojo de semaforo 3
  t.goto(30,-115)
  t.dot(20,0,255,0)#prendo verde de semaforo 3
- '''
- gpio.output(36,gpio.LOW)
- gpio.output(38,gpio.LOW)
- gpio.output(40,gpio.HIGH)
- 
- gpio.output(29,gpio.LOW)
- gpio.output(31,gpio.LOW)
- gpio.output(33,gpio.HIGH)
- 
- gpio.output(22,gpio.HIGH) #verde de semaforo 3 encendido
- gpio.output(24,gpio.LOW)
- gpio.output(26,gpio.LOW)
- 
- gpio.output(11,gpio.LOW)
- gpio.output(13,gpio.LOW)
- gpio.output(15,gpio.HIGH) #rojo se,aforo 4 encendido
- '''
+
  for i in range(2):
   c=1.5
   S3.shapesize(c*1.5,c*2.5,c*3.5)
@@ -463,23 +365,7 @@ for i in range(2):
  t.dot(20,0,50,0)#prendo verde de semaforo 3
  t.goto(60,-115)
  t.dot(20,255,255,0)#prendo amarillo de semaforo 3
- '''
- gpio.output(36,gpio.LOW)
- gpio.output(38,gpio.LOW)
- gpio.output(40,gpio.HIGH)
- 
- gpio.output(29,gpio.LOW)
- gpio.output(31,gpio.LOW)
- gpio.output(33,gpio.HIGH)
- 
- gpio.output(22,gpio.LOW) 
- gpio.output(24,gpio.HIGH) #amarillo de semafor 3 encendido
- gpio.output(26,gpio.LOW)
- 
- gpio.output(11,gpio.LOW)
- gpio.output(13,gpio.LOW)
- gpio.output(15,gpio.HIGH) #rojo semaforo 4 encendido
- '''
+
  time.sleep(1)
  
  t.goto(60,-115)
@@ -490,23 +376,7 @@ for i in range(2):
  t.dot(20,50,0,0)#apago rojo de semaforo 4
  t.goto(-115,-30)
  t.dot(20,0,255,0) #prendo verde de semaforo 4
- '''
- gpio.output(36,gpio.LOW)
- gpio.output(38,gpio.LOW)
- gpio.output(40,gpio.HIGH)
  
- gpio.output(29,gpio.LOW)
- gpio.output(31,gpio.LOW)
- gpio.output(33,gpio.HIGH)
- 
- gpio.output(22,gpio.LOW) 
- gpio.output(24,gpio.LOW)
- gpio.output(26,gpio.HIGH)
- 
- gpio.output(11,gpio.HIGH) #verde semaforo 4 encendido
- gpio.output(13,gpio.LOW)
- gpio.output(15,gpio.LOW) 
- '''
  for i in range(3):
   d=2.33
   S4.shapesize(d*1,d*4,d*1.333)
@@ -525,23 +395,7 @@ for i in range(2):
  t.dot(20,0,50,0) #apago verde de semaforo 4
  t.goto(-115,-60)
  t.dot(20,255,255,0)#prendo amarillo de semaforo 4
- '''
- gpio.output(36,gpio.LOW)
- gpio.output(38,gpio.LOW)
- gpio.output(40,gpio.HIGH)
- 
- gpio.output(29,gpio.LOW)
- gpio.output(31,gpio.LOW)
- gpio.output(33,gpio.HIGH)
- 
- gpio.output(22,gpio.LOW) 
- gpio.output(24,gpio.LOW)
- gpio.output(26,gpio.HIGH)
- 
- gpio.output(11,gpio.LOW)
- gpio.output(13,gpio.HIGH) #amarillo semaforo 4 prendido
- gpio.output(15,gpio.LOW) 
- '''
+
  time.sleep(1)
  
  t.goto(-115,-60)
@@ -565,7 +419,5 @@ S2.showturtle()
 S2.goto(10,0)
 S2.pencolor("white")
 S2.write("¡¡¡CHOQUE MORTAL!!!!",False,"center",("arial",20,"bold italic"))
-'''
-gpio.cleanup()
-'''
+
 screen.exitonclick()

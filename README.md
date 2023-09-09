@@ -14,27 +14,27 @@ Grupo: 205</p><p>
 
 # **Tabla de contenido de la practica 1**
 
-[Introducción	3](#_toc145146764)
+[**Introducción	3**](#_toc145146764)
 
-[Practica de control de semáforos	4](#_toc145146765)
+[**Practica de control de semáforos	4**](#_toc145146765)
 
-[**Desarrollo**	4](#_toc145146766)
+[**Desarrollo	4**](#_toc145146766)
 
-[**Diseño del cruce para esta práctica.**	4](#_toc145146767)
+[**Diseño del cruce para esta práctica.	4**](#_toc145146767)
 
-[**Matriz y Grafo de conflictos sobre el sistema.**	5](#_toc145146768)
+[**Matriz y Grafo de conflictos sobre el sistema.	5**](#_toc145146768)
 
-[**Diseño de la solución**	6](#_toc145146769)
+[**Diseño de la solución	6**](#_toc145146769)
 
-[Código de la función que genera un vehículo:	7](#_toc145146770)
+[**Código de la función que genera un vehículo:	7**](#_toc145146770)
 
-[Código de la función main (Que es la más importante de todos):	8](#_toc145146771)
+[**Código de la función main (Que es la más importante de todos):	8**](#_toc145146771)
 
-[Video y Ligas del Código	10](#_toc145146772)
+[**Video y Ligas del Código	10**](#_toc145146772)
 
-[Conclusión	11](#_toc145146773)
+[**Conclusión	11**](#_toc145146773)
 
-[Bibliografía	11](#_toc145146774)
+[**Bibliografía	11**](#_toc145146774)
 
 
 

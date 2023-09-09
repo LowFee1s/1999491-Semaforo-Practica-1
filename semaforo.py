@@ -1,3 +1,11 @@
+'''
+"-ESTE NO ES EL ARCHIVO DE LA ACTIVIDAD, SOLAMENTE ES UN SEMAFORO DE PRUEBA-"
+
+Este programa solamente es un semaforo, fue lo primero que realize algo muy normal. Solamente es algo extra. Ya que 
+este lo realice con tkinter viendo la documentacion para saber como utilizarlo y el sistema en si solamente
+son contadores, se espera cada cierto tiempo y ya. No es como el otro codigo que realice que ese si esta creo todo correcto.
+'''
+
 import tkinter as tk
 
 class TrafficLight:
@@ -29,21 +37,19 @@ class TrafficLight:
             self.canvas.itemconfig(self.red_light, fill="gray")
             self.canvas.itemconfig(self.yellow_light, fill="yellow")
             time = 1000
-            if not cars_on_the_road():
+            if not cambiarsemaforo():
                 time *= 2
             self.color = "green"
         else:
             self.canvas.itemconfig(self.yellow_light, fill="gray")
             self.canvas.itemconfig(self.green_light, fill="green")
             time = 3000
-            if cars_on_the_road():
+            if cambiarsemaforo():
                 time *= 2
             self.color = "red"
         self.master.after(time, self.change_color)
 
-def cars_on_the_road():
-    # This function should return True or False depending on whether there are cars on the road.
-    # You can replace this with your own implementation.
+def cambiarsemaforo():
     return False
 
 if __name__ == "__main__":

@@ -263,7 +263,7 @@ Con esto se generará todas las cosas en esta simulación, obviamente hay mas co
 Ya para concluir con esta actividad a continuación veremos el video de la simulación y además las ligas donde subí mi código por si gustan para que lo puedan observar:
 https://youtu.be/Rgf2tU6GgTQ
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Rgf2tU6GgTQ?si=MCvRXUY5whuwx1Pn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ####
 ####
 ####

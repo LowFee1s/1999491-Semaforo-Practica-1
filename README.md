@@ -2,7 +2,7 @@
 Este es un sistema de un semáforo con calles y coches realizado por Francisco Javier Blas Garza, esto para una práctica de laboratorio de la materia del laboratorio de sistemas adaptativos.
 
 **PRACTICA DE CONTROL DE SEMAFOROS** </p><p>
-Elaboro: Francisco Javier Blas Garza Matricula: 1999491   		Carrera: ITS</p><p>
+Elaboro: Francisco Garza 		Carrera: ITS</p><p>
 <a name="_toc145146763"></a>**Laboratorio de Sistemas Adaptativos**</p><p>
 Martes V3 </p><p>
 Grupo: 205</p><p>

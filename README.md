@@ -1,5 +1,5 @@
 # 1999491-Semaforo-Practica-1
-Este es un sistema de un semáforo con calles y coches realizado por Francisco Javier Blas Garza, esto para una práctica de laboratorio de la materia del laboratorio de sistemas adaptativos.
+Este es un sistema de un semáforo con calles y coches realizado, esto para una práctica de laboratorio de la materia del laboratorio de sistemas adaptativos.
 
 **PRACTICA DE CONTROL DE SEMAFOROS** </p><p>
 Carrera: ITS</p><p>

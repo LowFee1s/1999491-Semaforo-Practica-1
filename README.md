@@ -260,8 +260,12 @@ Bueno como Podemos observar se crea una variable que tiene un objeto (Threading)
 Con esto se generará todas las cosas en esta simulación, obviamente hay mas cosas que hacen que funcione correctamente, pero solamente estoy poniendo lo más importante, lo que me tomo más tiempo y lo importante.
 ### <a name="_toc145146772"></a>Video y Ligas del Código
 
+
+
 Ya para concluir con esta actividad a continuación veremos el video de la simulación y además las ligas donde subí mi código y el blog de la practica 1 por si gustan para que lo puedan observar:
+
 https://youtu.be/Rgf2tU6GgTQ
+
 https://practica1labsistemasadaptativos.netlify.app/
 
 ####
